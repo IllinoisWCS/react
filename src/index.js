@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import TeaComponent from './TeaComponent';
+import TeaPage from './pages/TeaPage';
+import CoffeePage from './pages/CoffeePage';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-ReactDOM.render(< TeaComponent/>, document.getElementById('root'));
+// uncomment whichever page you want to display
+ReactDOM.render(< TeaPage/>, document.getElementById('root'));
+//ReactDOM.render(< CoffeePage/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
